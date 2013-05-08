@@ -31,6 +31,9 @@ public:
 
 		return totalDisplacment/mPoints.size();
 	}
+
+
+	int GetPointCount() { return mPoints.size(); }
 };
 
 #endif
