@@ -3,6 +3,7 @@
   <ItemGroup>
     <ClInclude Include="..\Src\Main.h" />
     <ClInclude Include="..\Src\Point2D.h" />
+    <ClInclude Include="..\Src\Physics.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Src\Main.cpp" />
