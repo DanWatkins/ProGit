@@ -77,6 +77,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="..\Src\Main.h" />
+    <ClInclude Include="..\Src\Point2D.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Src\Main.cpp" />
