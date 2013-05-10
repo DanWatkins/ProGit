@@ -7,12 +7,13 @@ class Entity
 {
 private:
 	Point2D<double> mPos;
-	int speed;
+	int mSpeed;
 
 public:
 	Entity();
 	
 	void Move(double x, double y) { mPos.x += x; mPos.y += y; }
+	int GetSpeed() { return mSpeed; }
 };
 
 #endif
